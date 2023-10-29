@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header {
+    background: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 100px; /* Tamanho desejado para o logotipo */
+    height: auto; /* Para manter a proporção */
+  }

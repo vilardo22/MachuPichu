@@ -1,0 +1,39 @@
+.pageCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+}
+
+.card {
+  /* Personalize os estilos dos cards conforme necessário */
+}
+
+.textContainer {
+  position: relative;
+}
+
+.overlayText {
+  position: absolute;
+  top: 200px; /* Ajuste a coordenada 'top' conforme necessário */
+  left: 10px; /* Ajuste a coordenada 'left' conforme necessário */
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  z-index: 1; /* Garante que o novo texto esteja acima do texto anterior */
+}
+
+.textInH1 {
+  color:#a88c43; /* Cor desejada */
+  font-family: 'Fonte desejada', sans-serif; /* Substitua 'Fonte desejada' pela fonte desejada */
+  font-size: 164px; /* Tamanho da fonte */
+  font-weight: bold; /* Texto em negrito */
+}

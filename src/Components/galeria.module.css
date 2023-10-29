@@ -1,0 +1,50 @@
+.container{
+    margin-top: 900px;
+}
+
+
+.fotos{
+    min-height: 40rem;
+    min-width: 30rem;
+    padding: 40px;
+
+}
+
+.fotos img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    pointer-events: none;
+}
+
+
+.inner{
+    display: flex;
+}
+
+.carrosel{
+    cursor: grab;
+    overflow: hidden;
+}
+.textInH12 {
+    left: 1040px;
+    position: relative;
+    top: -200px; /* Ajuste a posição vertical conforme necessário */
+    color: #a88c43;
+    font-size: 64px;
+    font-weight: bold;
+   
+    
+  }
+  
+  .Text2 {
+    position: relative;
+    top: -150px; /* Ajuste a posição vertical conforme necessário */
+    left: 0;
+    width: 30%;
+    margin: 0 auto;
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+  }

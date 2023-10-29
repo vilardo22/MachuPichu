@@ -1,0 +1,34 @@
+/* Welcome.module.css */
+.welcome {
+    background-image: url('../Assets/images/ft1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1; /* Isso coloca a imagem por trás do conteúdo do cabeçalho */
+    background-color: aliceblue;
+  }
+  
+ 
+  .header {
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 255, 255);    
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed; /* Fixa o cabeçalho no topo da página */
+    top: 0; /* Posiciona o cabeçalho no topo da página */
+    z-index: 1; /* Define um valor maior de z-index para que o cabeçalho fique acima do conteúdo do "Welcome" */
+  }
+  
+  
+  .logo {
+    width: 200px; /* Tamanho desejado para o logotipo */
+    height: auto; /* Para manter a proporção */
+  }
