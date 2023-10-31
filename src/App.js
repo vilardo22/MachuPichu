@@ -8,6 +8,7 @@ import Soft from './Components/Soft';
 import Slideshow from './Components/Slideshow';
 import Galeria from './Components/Galeria';
 import Porquenos from './Components/Porquenos';
+import Time from './Components/Time';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Slideshow />
       <Galeria />
       <Porquenos/>
+      <Time/>
     </div>
   );
 }

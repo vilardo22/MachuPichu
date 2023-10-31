@@ -1,0 +1,73 @@
+/* Slideshow.module.css */
+/* .container {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  } */
+  
+  .Text {
+    position: relative;
+    top: -350px;
+    left: 20%;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 50px;
+    width: 65%;
+    text-align: center;
+  }
+  
+  .textInH1 {
+    position: relative;
+    top: -600px;
+    left: 200px;
+    color: #a88c43;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .container2 {
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+     background-image: url("../Assets/images/ft1.jpg"); 
+    background-size: cover; /* Ajusta o dimensionamento da imagem para cobrir a div */
+    background-position: center; /* Centraliza a imagem na div */
+    height: 1000px; /* Ajuste a altura conforme necessário */
+    background-size: 100%;
+      background-position: center;
+      width: 100%;
+  }
+  
+ 
+  
+  .card1{
+    position: absolute;
+    left: 1630px;
+    top: 400px;
+  }
+  .card2{
+    position: absolute;
+    left: 380px;
+    top: 300px;
+  }
+  .card3 {
+    position: absolute;
+    left: 1000px; /* Mantenha a coordenada left para a posição horizontal */
+    top: 500px; /* Mantenha a coordenada top para a posição vertical */
+  }
+  .bottomText {
+    position: absolute;
+    bottom: -90px; /* Ajuste a distância da parte inferior conforme necessário */
+    text-align: center;
+    width: 100%;
+    color: #fff; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte do texto */
+    /* Outros estilos desejados para o texto na parte inferior */
+  }
+  
