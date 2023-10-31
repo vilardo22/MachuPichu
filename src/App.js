@@ -7,6 +7,7 @@ import Apresentação from './Components/Apresentacao';
 import Soft from './Components/Soft';
 import Slideshow from './Components/Slideshow';
 import Galeria from './Components/Galeria';
+import Porquenos from './Components/Porquenos';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Soft />
       <Slideshow />
       <Galeria />
+      <Porquenos/>
     </div>
   );
 }
