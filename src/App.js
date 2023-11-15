@@ -9,6 +9,9 @@ import Slideshow from './Components/Slideshow';
 import Galeria from './Components/Galeria';
 import Porquenos from './Components/Porquenos';
 import Time from './Components/Time';
+import FAQ from './Components/FAQ';
+import Contato from './Components/Contato';
+
 
 
 function App() {
@@ -21,6 +24,8 @@ function App() {
       <Galeria />
       <Porquenos/>
       <Time/>
+     <FAQ/>
+     <Contato/>
     </div>
   );
 }

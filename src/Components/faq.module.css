@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .accordion {
+    width: 500px;
+  }
+  
+  .item {
+    background: #f0ebe1;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+  }
+  
+  .title {
+    color: #85662b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .content {
+    color: #857d6e;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+  }
+  
+  .show {
+    max-height: 1000px; /* Ajuste esse valor conforme necessário para a altura máxima que desejar */
+    transition: max-height 0.5s cubic-bezier(1, 0, 1, 0);
+  }
+  
+  .Text {
+    position: relative;
+    top: 370px;
+    left: 17%;
+    color: #a88c43;
+    font-weight: bold;
+    font-size: 50px;
+    width: 65%;
+    text-align: center;
+  }
+  
+  .textInH1 {
+    position: relative;
+    top: 340px;
+    left: 960px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+  }
