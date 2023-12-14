@@ -20,7 +20,7 @@ function App() {
       <Welcome />
       <Apresentação />
       <Soft />
-      <Slideshow />
+      {/* <Slideshow /> */}
       {/* <Galeria />
       <Porquenos/>
       <Time/>

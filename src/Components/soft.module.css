@@ -19,11 +19,11 @@
   
   .Text {
     position: relative;
-    top: 267px; /* Ajuste a coordenada 'top' conforme necessário */
+    top: 6em; /* Ajuste a coordenada 'top' conforme necessário */
     left:-2px; /* Ajuste a coordenada 'left' conforme necessário */
     color: aliceblue;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 2.5em;
     text-align: center;
     z-index: 1; /* Garante que o novo texto esteja acima do texto anterior */
   }
@@ -31,9 +31,28 @@
   .textInH1 {
     color: #a88c43; /* Cor desejada */
     font-family: 'Fonte desejada', sans-serif; /* Substitua 'Fonte desejada' pela fonte desejada */
-    font-size: 164px; /* Tamanho da fonte (reduzi para um valor mais comum) */
+    font-size: 10em; /* Tamanho da fonte (reduzi para um valor mais comum) */
     font-weight: bold; /* Texto em negrito */
   }
+  @media screen and (max-width: 600px) {
+    .Text {
+    position: relative;
+    top: 6em; /* Ajuste a coordenada 'top' conforme necessário */
+    left:-2px; /* Ajuste a coordenada 'left' conforme necessário */
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    z-index: 1; /* Garante que o novo texto esteja acima do texto anterior */
+  }
+  
+  .textInH1 {
+    color: #a88c43; /* Cor desejada */
+    font-family: 'Fonte desejada', sans-serif; /* Substitua 'Fonte desejada' pela fonte desejada */
+    font-size: 4.5em; /* Tamanho da fonte (reduzi para um valor mais comum) */
+    font-weight: bold; /* Texto em negrito */
+  }
+}
   
   .soft {
     text-align: center;
