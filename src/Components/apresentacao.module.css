@@ -3,37 +3,65 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .container {
   display: flex;
   flex-direction: row;
-  gap: 90px;
+  /* gap: %; */
+  flex-wrap:wrap;
+  justify-content:space-around;
+  margin-top: 2%;
+  /* background-color: aliceblue; */
+  width: 100%;
 }
 
 .card {
-  /* Personalize os estilos dos cards conforme necessário */
+ margin: 1%;
+ /* width: 10%; */
 }
 
 .textContainer {
   position: relative;
 }
 
+
 .overlayText {
   position: absolute;
-  top: 200px; /* Ajuste a coordenada 'top' conforme necessário */
-  left: 10px; /* Ajuste a coordenada 'left' conforme necessário */
+  top: 40%; 
+  /* left: 10px; Ajuste a coordenada 'left' conforme necessário */
   color: aliceblue;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2.5em;
   text-align: center;
-  z-index: 1; /* Garante que o novo texto esteja acima do texto anterior */
+  z-index: 1; 
 }
+
 
 .textInH1 {
   color:#a88c43; /* Cor desejada */
   font-family: 'Fonte desejada', sans-serif; /* Substitua 'Fonte desejada' pela fonte desejada */
-  font-size: 164px; /* Tamanho da fonte */
+  font-size: 9em; /* Tamanho da fonte */
   font-weight: bold; /* Texto em negrito */
+}
+@media screen and (max-width: 600px) {
+  .overlayText {
+    position: absolute;
+    top: 40%; 
+    /* left: 10px; Ajuste a coordenada 'left' conforme necessário */
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    z-index: 1; 
+  }
+  
+  
+  .textInH1 {
+    color:#a88c43; /* Cor desejada */
+    font-family: 'Fonte desejada', sans-serif; /* Substitua 'Fonte desejada' pela fonte desejada */
+    font-size: 4.5em; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+  }
 }

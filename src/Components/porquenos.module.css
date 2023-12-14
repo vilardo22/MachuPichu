@@ -15,7 +15,7 @@
   .textInH1 {
     position: relative;
     top: -45px;
-    left: 1090px;
+    left: 1090px;    /*Colocar %*/
     color: #a88c43;
     font-size: 50px;
     font-weight: bold;

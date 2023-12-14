@@ -21,11 +21,11 @@ function App() {
       <Apresentação />
       <Soft />
       <Slideshow />
-      <Galeria />
+      {/* <Galeria />
       <Porquenos/>
       <Time/>
      <FAQ/>
-     <Contato/>
+     <Contato/> */}
     </div>
   );
 }

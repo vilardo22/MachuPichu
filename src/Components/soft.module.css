@@ -8,9 +8,13 @@
   }
   
   .card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 200px; /* Reduzi o espaçamento para melhor ajuste no exemplo */
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    /* background-color: aliceblue; */
+    /* gap: 5%;  */
   }
   
   .Text {
@@ -33,6 +37,9 @@
   
   .soft {
     text-align: center;
+    /* background-color: rgb(15, 15, 15); */
+    /* width: 45%; */
+    /* margin: 10%; */
   }
   
   .icon {
