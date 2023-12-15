@@ -8,17 +8,12 @@ const Slider = () => {
   return (
 
     <div className={styles.container}>
-      {/* <div className={styles.textContainer}>
-          <p className={styles.Text}>Quais lugares você vai visitar</p>
-          <h1 className={styles.textInH1}>Loren Ipsum</h1>
-        </div> */}
 
 
-      {/* <div className={styles.backgroundImage} style={{ backgroundImage: `url(${f1})` }}></div> */}
-      {/* <div className={styles.textContainer2}>
+      <div className={styles.textContainer2}>
           <h1 className={styles.textInH12}>Loren Ipsum</h1>
           <p className={styles.Text2}>Quais lugares você vai visitar</p>
-        </div> */}
+        </div>
       <div className={styles.bottomText2}>Texto1 na parte inferior</div>
 
       <div className={styles.card1}>
