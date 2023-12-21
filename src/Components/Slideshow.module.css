@@ -99,9 +99,9 @@
 
 @media screen and (max-width: 600px) {
   .bottomText1 {
-    position: absolute;
-    bottom: 15em; 
-    left: 25em;
+    position: relative;
+    bottom: -9em; 
+    left: 11em;
     text-align: center;
     color: #fff; 
     font-size: 70%; 
