@@ -100,27 +100,27 @@
 @media screen and (max-width: 600px) {
   .bottomText1 {
     position: relative;
-    bottom: -9em; 
-    left: 11em;
+    bottom: -10em; 
+    left: 4.6em;
     text-align: center;
     color: #fff; 
     font-size: 70%; 
   }
   .bottomText2 {
-    position: absolute;
-    bottom: 17em; 
-    left: 2em;
+    position: relative;
+    bottom: -6.6em; 
+    left: -8.1em;
     text-align: center;
     color: #ffffff; 
     font-size: 70%; 
   }
   .bottomText3 {
-    position: absolute;
-    bottom: 2em; 
-    left: 13em;
+    position: relative;
+    bottom: -23em; 
+    left: -15em;
     text-align: center;
     color: #fff; 
-    font-size: 70%; 
+    font-size: 65%; 
   }
   .card1{
     position: absolute;
@@ -133,7 +133,7 @@
   }
   .card3{
     position: absolute;
-    left: 40%;
+    left: 35%;
     top: 70%;
     background-color: #233129;
     width: 6em; 
@@ -150,19 +150,19 @@
     transform: rotate(45deg); 
   }
   .textInH12 {
-    position: absolute;
-    top: -2em; 
-    left: 3.6em;
+    position: relative;
+    top: -11em; 
+    left: 5.6em;
     color: #a88c43;
-    font-size: 2em;
+    font-size: 1.4rem;
     font-weight: bold;
     border-bottom: 1px solid #a88c43;
     padding-bottom: 30px;
   }
   
   .Text2 {
-    position: absolute;
-    top:3em; 
+    position: relative;
+    top:-16em; 
     left: 7em;
     margin: 0 auto;
     color: aliceblue;
