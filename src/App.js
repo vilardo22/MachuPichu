@@ -7,10 +7,10 @@ import Apresentação from './Components/Apresentacao';
 import Soft from './Components/Soft';
 import Slideshow from './Components/Slideshow';
 import Galeria from './Components/Galeria';
-import Porquenos from './Components/Porquenos';
 import Time from './Components/Time';
 import FAQ from './Components/FAQ';
 import Contato from './Components/Contato';
+import Soft1 from './Components/Soft1';
 
 
 function App() {
@@ -21,8 +21,8 @@ function App() {
       <Soft />
       <Slideshow />
       <Galeria />
-      {/* <Porquenos/>
-      <Time/>
+      <Soft1/>
+      {/* <Time/>
      <FAQ/>
      <Contato/> */}
     </div>
