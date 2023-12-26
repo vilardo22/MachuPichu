@@ -1,7 +1,7 @@
 .meucarrossel {
     padding-top: 16em;
-    max-width: auto; /* Ajuste conforme necessário */
-    margin:  auto; /* Centraliza o carrossel */
+    width: 100em; 
+    margin:  auto; 
   }
   
   /* Estilo para os slides do carrossel */
@@ -16,8 +16,8 @@
   
   @media screen and (max-width: 600px) {
     .meucarrossel {
-        padding-top: 5em;
-        max-width: auto; /* Ajuste conforme necessário */
+        padding-top: 3em;
+        width: auto; /* Ajuste conforme necessário */
         margin:  auto; /* Centraliza o carrossel */
       }
       
