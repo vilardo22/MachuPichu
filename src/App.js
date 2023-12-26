@@ -13,7 +13,6 @@ import FAQ from './Components/FAQ';
 import Contato from './Components/Contato';
 
 
-
 function App() {
   return (
     <div className="component-spacing">
@@ -21,8 +20,8 @@ function App() {
       <Apresentação />
       <Soft />
       <Slideshow />
-      {/* <Galeria />
-      <Porquenos/>
+      <Galeria />
+      {/* <Porquenos/>
       <Time/>
      <FAQ/>
      <Contato/> */}
