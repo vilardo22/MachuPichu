@@ -10,56 +10,46 @@
   
   .Text {
     position: relative;
-    top: -350px;
-    left: 20%;
+    top: -15em;
+    left: 102%;
     color: aliceblue;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 4em;
     width: 65%;
     text-align: center;
   }
   
-  .textInH1 {
-    position: relative;
-    top: -600px;
-    left: 200px;
-    color: #a88c43;
-    font-size: 50px;
-    font-weight: bold;
-  }
+  
   
   .container2 {
-    top: 300px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-     background-image: url("../Assets/images/ft1.jpg"); 
-    background-size: cover; /* Ajusta o dimensionamento da imagem para cobrir a div */
-    background-position: center; /* Centraliza a imagem na div */
-    height: 1000px; /* Ajuste a altura conforme necessário */
-    background-size: 100%;
-      background-position: center;
-      width: 100%;
+    flex-direction: row;
+    /* gap: %; */
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-top: 52%;
+    /* background-color: aliceblue; */
+    width: 100%;
   }
   
  
   
   .card1{
-    position: absolute;
-    left: 1630px;
-    top: 400px;
+    position: relative;
+    left: -34em;
+    top: -40em;
+ 
   }
   .card2{
-    position: absolute;
-    left: 380px;
-    top: 300px;
+    position: relative;
+    left: -33em;
+    top: -30em;
+    
   }
   .card3 {
-    position: absolute;
-    left: 1000px; /* Mantenha a coordenada left para a posição horizontal */
-    top: 500px; /* Mantenha a coordenada top para a posição vertical */
+    position: relative;
+    left: -33em; /* Mantenha a coordenada left para a posição horizontal */
+    top: -40em; /* Mantenha a coordenada top para a posição vertical */
   }
   .bottomText {
     position: absolute;
@@ -71,3 +61,50 @@
     /* Outros estilos desejados para o texto na parte inferior */
   }
   
+  @media screen and (max-width: 600px) {
+    .Text {
+      position: relative;
+      top: -17em;
+      left: 2.2em;
+      color: aliceblue;
+      font-weight: bold;
+      font-size: 2.3em;
+      width: 65%;
+      text-align: center;
+    }
+    
+    
+    
+    .container2 {
+      display: flex;
+      flex-direction: row;
+      /* gap: %; */
+      flex-wrap:wrap;
+      justify-content:space-around;
+      margin-top: 232%;
+      /* background-color: aliceblue; */
+      width: 100%;
+    }
+    
+   
+    
+    .card1{
+      position: relative;
+      left: 0.5em;
+      top: -30em;
+   
+    }
+    .card2{
+      position: relative;
+      left: 0.5em;
+      top: -15em;
+      
+    }
+    .card3 {
+      position: relative;
+      left: 0.5em; /* Mantenha a coordenada left para a posição horizontal */
+      top: -4em; /* Mantenha a coordenada top para a posição vertical */
+    }
+    
+    
+}

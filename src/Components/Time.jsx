@@ -14,11 +14,9 @@ const Time = () => {
       
       <div className={styles.container2}>
       <div className={styles.textContainer}>
-          <p className={styles.Text}>Quais lugares você vai visitar</p>
-          <h1 className={styles.textInH1}>Loren Ipsum</h1>
+          <p className={styles.Text}>Nosso Time de profissionais</p>
         </div>
-        <div className={styles.backgroundImage} ></div>
-        
+
         <div className={styles.card1}>
         <Oquee />
           <div className={styles.bottomText}>Texto na parte inferior</div>
@@ -29,7 +27,7 @@ const Time = () => {
         </div>
         <div className={styles.card3}>
         <Oquee />
-          <div className={`${styles.bottomText} ${styles.cardTop}`}>Texto na parte superior</div>
+          <div className={`${styles.bottomText} ${styles.cardTop}`}>Texto na parte superior3</div>
         </div>
       </div>
     </>

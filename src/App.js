@@ -22,8 +22,8 @@ function App() {
       <Slideshow />
       <Galeria />
       <Soft1/>
-      {/* <Time/>
-     <FAQ/>
+      <Time/>
+     {/* <FAQ/>
      <Contato/> */}
     </div>
   );
