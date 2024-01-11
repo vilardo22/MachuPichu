@@ -6,13 +6,13 @@
   }
   
   .accordion {
-    width: 500px;
+    width: 45em;
   }
   
   .item {
     background: #f0ebe1;
-    margin-bottom: 5px;
-    padding: 10px 20px;
+    margin-bottom: 1em;
+    padding: 1em 3em;
   }
   
   .title {
@@ -31,26 +31,29 @@
   }
   
   .show {
-    max-height: 1000px; /* Ajuste esse valor conforme necessário para a altura máxima que desejar */
+    max-height: 90em; /* Ajuste esse valor conforme necessário para a altura máxima que desejar */
     transition: max-height 0.5s cubic-bezier(1, 0, 1, 0);
   }
   
   .Text {
     position: relative;
-    top: 370px;
-    left: 17%;
+    top: 6em;
+    left: 23em;
     color: #a88c43;
     font-weight: bold;
     font-size: 50px;
-    width: 65%;
-    text-align: center;
+    
   }
   
   .textInH1 {
     position: relative;
-    top: 340px;
-    left: 960px;
+    top: 7em;
+    left: 20em;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 3em;
     font-weight: bold;
+  }
+  .sanfona{
+    width: 100%;
+    margin-top: -19em;
   }

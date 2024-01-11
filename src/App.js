@@ -23,8 +23,8 @@ function App() {
       <Galeria />
       <Soft1/>
       <Time/>
-     {/* <FAQ/>
-     <Contato/> */}
+     <FAQ/>
+     
     </div>
   );
 }

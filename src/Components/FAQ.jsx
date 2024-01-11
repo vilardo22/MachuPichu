@@ -13,7 +13,7 @@ const FAQ = () => {
   };
 
   return (
-<div>
+<div className={styles.sanfona}>
   <div className={styles.textContainer}>
     <p className={styles.Text}>F.A.Q</p>
     <h1 className={styles.textInH1}>Perguntas Frequentes</h1>
