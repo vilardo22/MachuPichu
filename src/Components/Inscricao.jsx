@@ -33,6 +33,12 @@ const Inscricao = () => {
 
   return (
     <div className={styles.container}>
+      <p className={styles.Text}>SUA JORNADA COMEÇA COM APENAS UM PASSO</p>
+      <p className={styles.Text1}>COMEÇE SUA AVENTURA</p>
+      <p className={styles.Text2}>Prencha seus dados que nossa equipe entrará em contato</p>
+  
+      <h1>Formulário de Cadastro</h1>
+  
       <form className={styles.form} onSubmit={handleSignupForm}>
         <input 
           type='text' 
@@ -40,14 +46,14 @@ const Inscricao = () => {
           value={name} 
           onChange={(e) => setName(e.target.value)} 
           required />
-
+  
         <input 
           type='email' 
           placeholder='Email' 
           value={email} 
           onChange={(e) => setEmail(e.target.value)} 
           required />
-
+  
         <input
           type='tel'
           placeholder='Número Whatsapp'
@@ -56,11 +62,10 @@ const Inscricao = () => {
           maxLength='15'
           required
         />
-
+  
         <button type='submit'>PRONTO PARA A AVENTURA</button>
       </form>
     </div>
   );
-};
-
-export default Inscricao;
+  }
+export default Inscricao
