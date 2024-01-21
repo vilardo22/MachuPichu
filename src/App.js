@@ -11,6 +11,7 @@ import Time from './Components/Time';
 import FAQ from './Components/FAQ';
 import Contato from './Components/Contato';
 import Soft1 from './Components/Soft1';
+import Inscricao from './Components/Inscricao';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
       <Soft1/>
       <Time/>
      <FAQ/>
-     
+     <Inscricao/>
     </div>
   );
 }

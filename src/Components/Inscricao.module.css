@@ -1,0 +1,53 @@
+
+
+.container{
+    display: flexbox;
+    flex-direction: column;
+}
+
+
+
+.Text {
+    position: relative;
+    top: 2em;
+    left: 28.8em;
+    color: #a88c43;
+    font-weight:bolder;
+    font-size: 3em;
+    display: flex;
+    width: 30%;
+    /* text-align: center; */
+   
+  }
+
+
+ .Text1{
+    position: relative;
+    top: 2.5em;
+    left: 43.1em;
+    color: #ffffff;
+    font-weight:bold;
+    font-size: 2em;
+    display: flex;
+    width: 40%;
+    text-align: center;
+   
+ }
+ .Text2{
+    position: relative;
+    top: 2.9em;
+    left: 57.5em;
+    color: #ffffff;
+    font-weight:lighter;
+    font-size: 1.5em;
+    display: flex;
+    width: 15%;
+    /* text-align: center; */
+   
+ }
+ .form{
+    display: flex;
+    flex-direction: column;
+    max-width: 30em;
+    gap:0.4em ;
+ }
