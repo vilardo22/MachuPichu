@@ -83,6 +83,7 @@
    transition: background 0.3s ease; /* Adiciona uma transição suave para a mudança de cor de fundo */
    background: #a88c43;
    color: #fff;
+   border-radius: 0.5em;
 }  
 
 .form button:hover {
