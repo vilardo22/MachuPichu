@@ -38,7 +38,7 @@ const Inscricao = () => {
       <p className={styles.Text2}>Prencha seus dados que nossa equipe entrará em contato</p>
   
       <h1>Formulário de Cadastro</h1>
-  
+        <div class={styles.wrapper}>
       <form className={styles.form} onSubmit={handleSignupForm}>
         <input 
           type='text' 
@@ -65,6 +65,7 @@ const Inscricao = () => {
   
         <button type='submit'>PRONTO PARA A AVENTURA</button>
       </form>
+      </div>
     </div>
   );
   }
